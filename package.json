@@ -1,0 +1,27 @@
+{
+  "name": "solvic",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "tsx scripts/seed.ts",
+    "simulate:call": "tsx scripts/simulate.ts call",
+    "simulate:reply": "tsx scripts/simulate.ts reply"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "twilio": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.3",
+    "dotenv": "^16.4.5",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.3"
+  }
+}
